@@ -71,6 +71,16 @@ public class MatrixGraph implements Graph{
     }
 
     @Override
+    public int[] traversalDFS() {
+        return new int[0];
+    }
+
+    @Override
+    public int[] traversalBFS() {
+        return new int[0];
+    }
+
+    @Override
     public int size() {
         return noOfVertices;
     }
